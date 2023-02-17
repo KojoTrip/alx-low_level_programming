@@ -11,9 +11,10 @@ int main(void)
         long long int d;
         float f;
 
-printf("Size of a char: %lu byte(s)\", (unsigned long)sizeof(a));
-printf("Size of an int: %lu byte(s)nclient_loop: send disconnect: Connection reset by peerze of a long int: %lu byte(s)n\", (unsigned long)sizeof(c));
-printf("Size of a long long int: %lu byte(s)n\", (unsigned long)sizeof(d));
-Administrator@TRIPSOLINO MINGW64 ~s)\n", (unsigned long)sizeof(f));
+printf("Size of a char: %ld byte(s)n\", (unsigned long)sizeof(a));
+printf("Size of an int: %ld byte(s)n\", (unsigned long)sizeof(b)); 
+print("Size of a long int: %ld byte(s)n\", (unsigned long)sizeof(c));
+printf("Size of a long long int: %ld byte(s)n\", (unsigned long)sizeof(d));
+printf("Size of a float: %ld byte(s)n\", (unsigned long)sizeof(f));
 return (0);
 }
